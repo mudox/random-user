@@ -28,7 +28,7 @@ pod 'RandomUser'
 
 ## Author
 
-mudox, mudoxisme@gmail.com
+Mudox
 
 ## License
 
