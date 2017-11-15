@@ -5,11 +5,17 @@
 [![License](https://img.shields.io/cocoapods/l/RandomUser.svg?style=flat)](http://cocoapods.org/pods/RandomUser)
 [![Platform](https://img.shields.io/cocoapods/p/RandomUser.svg?style=flat)](http://cocoapods.org/pods/RandomUser)
 
+<img src="screenshot.png" width="400"/>
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+- iOS 10.0+
+- Xcode 9+
+- Swift 4+
 
 ## Installation
 
