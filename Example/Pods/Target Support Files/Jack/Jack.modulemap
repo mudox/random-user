@@ -1,0 +1,6 @@
+framework module Jack {
+  umbrella header "Jack-umbrella.h"
+
+  export *
+  module * { export * }
+}

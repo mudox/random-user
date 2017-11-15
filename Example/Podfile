@@ -1,11 +1,17 @@
 use_frameworks!
+platform :ios, '10.0'
 
 target 'RandomUser_Example' do
+
   pod 'RandomUser', :path => '../'
+  pod 'Jack',       :path => '../../Jack/'
+
+  pod 'Eureka'
+  pod 'Kingfisher'
+  pod 'FlagKit', '~> 2.0.1'
 
   target 'RandomUser_Tests' do
     inherit! :search_paths
 
-    
   end
 end

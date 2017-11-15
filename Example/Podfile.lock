@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (4.5.1)
+  - CocoaLumberjack/Default (3.3.0)
+  - CocoaLumberjack/Swift (3.3.0):
+    - CocoaLumberjack/Default
+  - Eureka (4.0.1)
+  - FlagKit (2.0.1)
+  - Jack (1.0.0-beta1):
+    - CocoaLumberjack/Swift
+  - Kingfisher (4.2.0)
+  - Moya/Core (10.0.0):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (10.0.0):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - RandomUser (0.1.0):
+    - Moya/RxSwift
+  - Result (3.2.4)
+  - RxSwift (4.0.0)
+
+DEPENDENCIES:
+  - Eureka
+  - FlagKit (~> 2.0.1)
+  - Jack (from `../../Jack/`)
+  - Kingfisher
+  - RandomUser (from `../`)
+
+EXTERNAL SOURCES:
+  Jack:
+    :path: ../../Jack/
+  RandomUser:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  CocoaLumberjack: 3c8c74683302f9012bb168e1c4b7ae3c0b558431
+  Eureka: c8bd5cc07143b6f66268c208d28a246c99b41955
+  FlagKit: 75c64346179f254d1753bebdc5b1f9cbe7890748
+  Jack: 68ed639034615b308f7f746d7f7fcf7989506516
+  Kingfisher: 9ee7e788d8ba07c3f21ce0d43f33cec310a4f781
+  Moya: adb58b0f4e58430db43cc6e2f6ebab1836501186
+  RandomUser: 12c84a396c55adea502691e5d87e6221123fdab7
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
+
+PODFILE CHECKSUM: cff244a0505adfdf5c76d516625b71e330df7c2b
+
+COCOAPODS: 1.3.1
